@@ -1,13 +1,16 @@
 {
-    "name": "@david.harwardt/lib",
+    "name": "@david.harwardt/color",
     "version": "0.1.0",
-    "description": "a library",
+    "description": "a library for colors",
     "module": "lib/es6/index.js",
     "types": "lib/es6/index.d.ts",
     "sideEffects": false,
     "repository": {
         "type": "git",
-        "url": "<url>"
+        "url": "https://github.com/davidHarwardt/color-js"
+    },
+    "dependencies": {
+        "@david.harwardt/math": "0.1.1"
     },
     "files": [
         "lib",

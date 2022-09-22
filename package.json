@@ -1,7 +1,7 @@
 {
-    "name": "package_name",
+    "name": "color",
     "version": "0.1.0",
-    "repository": "<repo>",
+    "repository": "https://github.com/davidHarwardt/color-js",
     "author": "david harwardt <harwardt.david@gmail.com>",
     "license": "MIT",
     "scripts": {
@@ -10,5 +10,8 @@
     },
     "devDependencies": {
         "typescript": "^4.8.3"
+    },
+    "dependencies": {
+        "@david.harwardt/math": "^0.1.1"
     }
 }
